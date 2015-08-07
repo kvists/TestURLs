@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="se.sebastiankvist.apps.testurls" version="0.0.1" versionCode="1"  xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TestURLs</name>
+    <description>
+        A simple Apache Cordova application that calls different external resources to see if there is any response
+    </description>
+    <author email="sebolaison@gmail.com" href="http://sebastiankvist.se">
+        Sebastian Kvist
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+	<allow-navigation href="*" />
+</widget>
