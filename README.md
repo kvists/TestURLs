@@ -6,7 +6,7 @@ Uses the cordova-plugin-whitelist.
 
 Note: No meta tag for [Content-Security-Policy](http://content-security-policy.com) has been added.
 
-Prerequisites:
+##Prerequisites and Installation
  - [node](http://nodejs.org/)
 ```
 $ npm install -g cordova
