@@ -48,10 +48,13 @@ var app = {
 
         console.log('Received Event: ' + id);
     },
-	test: function (url) {
+	test: function () {
+        var URL = arguments[0] !== null && typeof arguments[0] === 'object' ?
+            document.getElementById('txtURL').value : arguments[0];
+
 		var e = document.getElementById('deviceready');
 		var test = {
-			value: 'logmeinpls'
+			value: 'respondpls'
         };
 		
 		e.querySelector('.ajax.received').innerHTML = 'Testing..';
@@ -59,7 +62,7 @@ var app = {
 		// Call external resource
 		$.ajax({
           type: 'GET',
-          url: url,
+          url: URL,
           data: test
         }).done(function(data, textStatus, jqXHR) {
 			e.querySelector('.ajax.listening').setAttribute('style', 'display:none;');
