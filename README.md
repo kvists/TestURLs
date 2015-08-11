@@ -2,7 +2,7 @@
 Cordova solution for testing access to external resources, i.e. google, facebook, wikipedia. Possible to test custom URLs directly in app.
 
 ## Purpose
-Was developed to confirm whether or not external resources is available via SSL in Android and iOS.
+Was developed to confirm whether or not certain external resources is available via SSL in Android and iOS.
 
 ## Dev info
 Created with Cordova 5.1.1, Cordova Android 4.1.1.
