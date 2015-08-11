@@ -8,9 +8,22 @@ Note: No meta tag for [Content-Security-Policy](http://content-security-policy.c
 
 ##Prerequisites and Installation
  - [node](http://nodejs.org/)
+ - [cordova](http://cordova.io/)
+
+ - If building for Android:
+ -- [Android SDK](https://developer.android.com/sdk/installing/index.html?pkg=studio)
 ```
-$ npm install -g cordova
-# cd to project folder
+# nodejs & npm
+$ sudo apt-get install nodejs
+$ sudo apt-get install npm
+
+# cordova
+$ sudo npm install -g cordova
+
+# Note: If cordova can't be found, it could be due to a common misnaming error with node, try creating a symlink:
+$ sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+# cordova plugins
 $ cordova plugin add cordova-plugin-whitelist
 
 # Add platform
