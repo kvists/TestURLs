@@ -1,17 +1,20 @@
 # TestURLs
-Cordova solution for testing access to external resources, i.e. google, facebook, wikipedia
+Cordova solution for testing access to external resources, i.e. google, facebook, wikipedia. Possible to test custom URLs directly in app.
+
+## Purpose
+Was developed to confirm whether or not external resources is available via SSL in Android and iOS.
+
+## Dev info
 Created with Cordova 5.1.1, Cordova Android 4.1.1.
 
 Uses the cordova-plugin-whitelist.
 
-Note: No meta tag for [Content-Security-Policy](http://content-security-policy.com) has been added.
+No meta tag for [Content-Security-Policy](http://content-security-policy.com) has been added.
 
 ##Prerequisites and Installation
  - [node](http://nodejs.org/)
  - [cordova](http://cordova.io/)
-
- - If building for Android:
- -- [Android SDK](https://developer.android.com/sdk/installing/index.html?pkg=studio)
+ - If building for Android: [Android SDK](https://developer.android.com/sdk/installing/index.html?pkg=studio)
 ```
 # nodejs & npm
 $ sudo apt-get install nodejs
